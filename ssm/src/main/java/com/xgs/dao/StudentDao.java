@@ -9,5 +9,7 @@ public interface StudentDao {
     List<Student> findAll ();
 //     根据名称查询
     Student findByName (String name);
+//    测试
+    Student test (String name);
 
 }
